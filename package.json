@@ -1,0 +1,20 @@
+{
+    "name": "modbus-sysinfo",
+    "version": "0.0.1",
+    "description": "Exposes system's state values like cpu usage, free memory throw Modbus TCP interface",
+    "author": {
+        "name": "Raul Martinez",
+    },
+    "dependencies": {
+        "process": "~0.10.1",
+        "modbus" : "~0.0.13",
+        "bunyan": "~1.3.4",
+        "daemon": "~1.1.0"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/adobe/brackets/blob/master/LICENSE"
+        }
+    ]
+}
