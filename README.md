@@ -6,17 +6,17 @@ It begins in Modbus Read-Only registers (from 30001 to 39999).
 
 Parameters:
 
-|  Parameter | Read Input Register  | Type
-|---|---|
-| Timestamp (Unix epoch)   | 1  | long
-| Free memory  | 3  |   long
-| Number of CPUS  | 5  |  int
-| CPU n user time| 6+(n*8) | long
-| CPU n nice time | 8+(n*8) | long
-| CPU n sys time | 10+(n*8) | long
-| CPU n idle time | 12+(n*8) | long
-| Load average | 5+NumberOfCPUs*8 | long
-----------------------------------------
+|  Parameter | Read Input Register  | Type |
+| ---------- | -------------------  | ---- |
+| *Timestamp (Unix epoch)*   | 1  | long |
+| *Free memory*  | 3  |   long |
+| *Number of CPUS*  | 5  |  int |
+| *CPU n user time* | 6+(n*8) | long | 
+| *CPU n nice time* | 8+(n*8) | long |
+| *CPU n sys time* | 10+(n*8) | long |
+| *CPU n idle time* | 12+(n*8) | long |
+| *Load average* | 5+NumberOfCPUs*8 | long |
+
 
 
 Motivation
@@ -49,7 +49,7 @@ Future improvements
 * Add functions and parameters programatically.
 * Web interface for configuration and show status, requests, etc...
 * ...
-* ¯\_(ツ)_/¯ 
+* ¯\\\_(ツ)\_/¯ 
 
 License
 -------
